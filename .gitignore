@@ -1,0 +1,31 @@
+node_modules
+.next
+.vercel
+.DS_Store
+
+# Env
+.env
+.env*
+!.env.template
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# build
+tsconfig.tsbuildinfo
+
+pubsub-debug.log
+ui-debug.log
+coverage
+.idea
+out
+dist
+vitest.config.js
+vitest.setup.js
+isolate
